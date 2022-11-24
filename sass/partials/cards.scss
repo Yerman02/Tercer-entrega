@@ -15,7 +15,11 @@
 }
 }
 
-
+@media  (min-width:800px){
+.card-order{
+    height: 40vh;
+}
+}
 
 @media  (min-width:1200px) {
 .card-img-top{
@@ -31,7 +35,7 @@
 .card-order{
     display: flex;
     justify-content: space-around;
-    height: 60vh;
+    height: 130vh;
     margin-top: 15vh;
 }
 }

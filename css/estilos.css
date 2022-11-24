@@ -104,6 +104,11 @@ footer {
     margin-bottom: 10vh;
   }
 }
+@media (min-width: 800px) {
+  .card-order {
+    height: 40vh;
+  }
+}
 @media (min-width: 1200px) {
   .card-img-top {
     display: flex;
@@ -117,22 +122,25 @@ footer {
   .card-order {
     display: flex;
     justify-content: space-around;
-    height: 60vh;
+    height: 130vh;
     margin-top: 15vh;
   }
 }
 @media (min-width: 300px) {
   .yeezy-red-size {
-    height: 42vh;
+    height: 35vh;
   }
   .img-adidas-rb {
     width: 10vh;
     margin-left: 2vh;
   }
+  .red-yeezy-img {
+    height: 10vh;
+  }
 }
 @media (min-width: 500px) {
   .yeezy-red-size {
-    height: 35vh;
+    height: 35.5vh;
   }
   .img-adidas-rb {
     width: 10vh;
@@ -142,9 +150,14 @@ footer {
     height: 40vh;
   }
 }
+@media (min-width: 800px) {
+  .yeezy-red-size {
+    height: 35vh;
+  }
+}
 @media (min-width: 1200px) {
   .yeezy-red-size {
-    height: 30vh;
+    height: 43vh;
   }
   .img-adidas-rb {
     width: 25vh;

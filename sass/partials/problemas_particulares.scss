@@ -1,16 +1,18 @@
 @media (min-width: 300px){
     .yeezy-red-size{
-        height: 42vh;
+        height: 35vh;
     }
 .img-adidas-rb{
     width: 10vh;
     margin-left: 2vh;
 }
-
+.red-yeezy-img{
+    height: 10vh;
+}
 }
 @media (min-width: 500px){
     .yeezy-red-size{
-        height: 35vh;
+        height: 35.5vh;
     }
     .img-adidas-rb{
     width: 10vh;
@@ -20,9 +22,14 @@
         height: 40vh;
     }
 }
+@media (min-width: 800px){
+.yeezy-red-size{
+    height: 35vh;
+}
+}
 @media (min-width: 1200px){
 .yeezy-red-size{
-    height: 30vh;
+    height: 43vh;
 }
 .img-adidas-rb{
     width: 25vh;
