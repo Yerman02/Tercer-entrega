@@ -99,9 +99,9 @@ footer {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    height: 100vh;
-    margin-top: 15vh;
-    margin-bottom: 15vh;
+    height: 90vh;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
   }
 }
 @media (min-width: 1200px) {
@@ -132,19 +132,19 @@ footer {
 }
 @media (min-width: 500px) {
   .yeezy-red-size {
-    height: 42vh;
+    height: 35vh;
   }
   .img-adidas-rb {
     width: 10vh;
     height: 20vh;
   }
   .black-jacket-card {
-    height: 46vh;
+    height: 40vh;
   }
 }
 @media (min-width: 1200px) {
   .yeezy-red-size {
-    height: 49vh;
+    height: 30vh;
   }
   .img-adidas-rb {
     width: 25vh;

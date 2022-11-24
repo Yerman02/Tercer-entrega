@@ -1,5 +1,6 @@
 @media  (min-width:300px){
 .card{
+    
     width: 15vh;
     height: 30vh;
 
@@ -8,9 +9,9 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    height: 100vh;
-    margin-top: 15vh;
-    margin-bottom: 15vh;
+    height: 90vh;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
 }
 }
 
@@ -23,6 +24,7 @@
     align-items: center;
 }
 .card{
+
     width: 30vh;
     height: 40vh;
 }
