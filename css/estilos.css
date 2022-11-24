@@ -1,0 +1,161 @@
+.fotos_footer {
+  width: 8vh;
+  height: 4vh;
+  background-color: greenyellow;
+}
+
+footer {
+  background-color: black;
+  color: greenyellow;
+}
+
+@media (min-width: 300px) {
+  .carousel {
+    width: 40%;
+    height: 40%;
+  }
+  h1 {
+    margin: 0;
+    background-color: black;
+    color: greenyellow;
+  }
+  .carousel-img-2 {
+    width: 20vh;
+    height: 20vh;
+  }
+  .carousel-item {
+    margin-top: 15vh;
+    margin-bottom: 15vh;
+    width: 25vh;
+  }
+  .carousel-inner {
+    width: 50vh;
+    margin-left: 30%;
+  }
+  h2 {
+    background-color: black;
+    color: greenyellow;
+  }
+  .logos-side {
+    margin-top: 20vh;
+    width: 10vh;
+    height: 10vh;
+  }
+  .logos-index {
+    display: flex;
+    justify-content: space-evenly;
+  }
+}
+@media (min-width: 1200px) {
+  .carousel {
+    width: 40%;
+    height: 40%;
+  }
+  main {
+    background-color: #b8b8b8;
+  }
+  h1 {
+    margin: 0;
+    background-color: black;
+    color: greenyellow;
+  }
+  .carousel-img-2 {
+    width: 20vh;
+    height: 20vh;
+  }
+  .carousel-item {
+    margin-top: 15vh;
+    margin-bottom: 15vh;
+    width: 25vh;
+  }
+  .carousel-inner {
+    width: 50vh;
+    margin-left: 30%;
+  }
+  h2 {
+    background-color: black;
+    color: greenyellow;
+  }
+  .logos-side {
+    margin-top: 20vh;
+    width: 10vh;
+    height: 10vh;
+  }
+  .logos-index {
+    display: flex;
+    justify-content: space-evenly;
+  }
+}
+.navbar {
+  width: 100%;
+}
+
+@media (min-width: 300px) {
+  .card {
+    width: 15vh;
+    height: 30vh;
+  }
+  .card-order {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: 100vh;
+    margin-top: 15vh;
+    margin-bottom: 15vh;
+  }
+}
+@media (min-width: 1200px) {
+  .card-img-top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .card {
+    width: 30vh;
+    height: 40vh;
+  }
+  .card-order {
+    display: flex;
+    justify-content: space-around;
+    height: 60vh;
+    margin-top: 15vh;
+  }
+}
+@media (min-width: 300px) {
+  .yeezy-red-size {
+    height: 42vh;
+  }
+  .img-adidas-rb {
+    width: 10vh;
+    margin-left: 2vh;
+  }
+}
+@media (min-width: 500px) {
+  .yeezy-red-size {
+    height: 42vh;
+  }
+  .img-adidas-rb {
+    width: 10vh;
+    height: 20vh;
+  }
+  .black-jacket-card {
+    height: 46vh;
+  }
+}
+@media (min-width: 1200px) {
+  .yeezy-red-size {
+    height: 49vh;
+  }
+  .img-adidas-rb {
+    width: 25vh;
+    height: 60vh;
+  }
+  .black-jacket-card {
+    height: 58vh;
+  }
+}
+body {
+  background-color: #b8b8b8;
+}
+
+/*# sourceMappingURL=estilos.css.map */

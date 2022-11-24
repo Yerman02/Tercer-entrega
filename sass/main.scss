@@ -1,0 +1,9 @@
+@use "./partials/footer.scss";
+@use "./partials/cosasIndex.scss";
+@use "./partials/navbar.scss";
+@use "./partials/cards.scss";
+@use "./partials/problemas_particulares.scss";
+
+body{
+    background-color:grayscale($color: #b8b8b8);
+}
