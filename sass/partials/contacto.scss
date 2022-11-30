@@ -1,0 +1,39 @@
+@media (min-width: 300px){
+    .position-map{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 7.45vh;
+    }
+}
+
+
+
+@media (min-width: 600px){
+.position-map{
+    display: flex;
+    justify-content: center;
+    margin-top: 10vh;
+    margin-bottom: 6.5vh;
+}
+.formulario{
+    margin-left: 24vh;
+}
+.email{
+    margin-right: 3vh;
+}
+}
+
+@media (min-width: 800px){
+    .formulario{
+        margin-left: 35vh;
+    }
+    .mapa{
+        height: 60vh;
+        width: 80vh;
+    }
+}
+@media (min-width: 1200px){
+    .formulario{
+        margin-left: 45vh;
+    }
+}

@@ -3,7 +3,8 @@
 @use "./partials/navbar.scss";
 @use "./partials/cards.scss";
 @use "./partials/problemas_particulares.scss";
+@use "./partials/contacto.scss";
 
 body{
-    background-color:grayscale($color: #b8b8b8);
+    background-color:grayscale($color: #4b4b4b);
 }

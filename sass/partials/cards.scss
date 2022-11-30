@@ -1,24 +1,28 @@
 @media  (min-width:300px){
 .card{
-    
-    width: 15vh;
-    height: 30vh;
+    margin-left: 20vh;
+    width: 20vh;
+    height: 36vh;
+    margin-bottom: 20vh;
 
 }
 .card-order{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    height: 90vh;
-    margin-top: 10vh;
-    margin-bottom: 10vh;
+    height: 200vh;
+}
+.grey-hoodie{
+    width: 14vh;
+    margin-left: 3vh;
 }
 }
 
 @media  (min-width:800px){
 .card-order{
-    height: 40vh;
+    height: 120vh;
 }
+
 }
 
 @media  (min-width:1200px) {
@@ -28,15 +32,20 @@
     align-items: center;
 }
 .card{
-
     width: 30vh;
     height: 40vh;
+    margin-bottom: 10vh;
+    margin-top: 5vh ;
 }
 .card-order{
     display: flex;
     justify-content: space-around;
     height: 130vh;
-    margin-top: 15vh;
 }
+.grey-hoodie{
+    width: 21vh;
+    margin-left: 3vh;
+}
+
 }
 

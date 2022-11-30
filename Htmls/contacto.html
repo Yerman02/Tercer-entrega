@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clothed</title>
+
+<!--                 FavIcon                          -->
+    <link rel="shortcut icon" href="../Fotos/favicon.png">
+
+
+    <!-- Link AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+
+    <!-- Link Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    
+    
+    <!-- Css Link -->
+    <link rel="stylesheet" href="../css/estilos.css">
+</head>
+<body> 
+  <header>
+    <h1 class="h1_index text-center">Nombre de la tienda</h1>
+    <!-- NavBar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="../index.html">Home</a> 
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="adidas.html">Adidas</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="nike.html">Nike</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="puma.html">Puma</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="contacto.html">Contacto</a>
+            </li>
+          </ul>   
+        </div>
+      </div>
+    </nav>
+</header>
+<main>
+  <div data-aos="fade-right" class="col-sm-12 col-md-6 formulario">
+    <form action="">
+        <div class="container mt-5 ">
+            <label for="nombre">Nombre</label>
+            <input type="text">
+            <p><div class=""></div></p>
+            <label class="email" for="email">Email</label>
+            <input type="email" name="email" id="email">
+        </div>
+        <p class="mt-3">Dejanos tu mensaje:</p>
+            
+            <textarea name="mensaje" id="mensaje" cols="7" rows="7" class="container"></textarea>
+
+        <div class="text-center">
+            <input type="submit" value="Enviar" class="submit">
+        </div>
+    </form>
+</div>
+<div class="position-map">
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3279.1999722964497!2d-56.205612485048164!3d-34.72535347145063!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a02d4d2b833a25%3A0xe55a7495270d8f7f!2sLas%20Piedras%20Shopping!5e0!3m2!1ses-419!2suy!4v1669766371067!5m2!1ses-419!2suy" referrerpolicy="no-referrer-when-downgrade" class="mapa"></iframe>
+</div>
+</main>
+<footer class="text-center">También estamos en <img class="fotos_footer" src="../Fotos/Logos/logo redes sociales.png" alt=""></img>
+</footer>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+<script>
+    AOS.init();
+</script>
+</body>
+</html>

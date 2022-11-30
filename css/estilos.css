@@ -51,9 +51,6 @@ footer {
     width: 40%;
     height: 40%;
   }
-  main {
-    background-color: #b8b8b8;
-  }
   h1 {
     margin: 0;
     background-color: black;
@@ -72,10 +69,6 @@ footer {
     width: 50vh;
     margin-left: 30%;
   }
-  h2 {
-    background-color: black;
-    color: greenyellow;
-  }
   .logos-side {
     margin-top: 20vh;
     width: 10vh;
@@ -92,21 +85,25 @@ footer {
 
 @media (min-width: 300px) {
   .card {
-    width: 15vh;
-    height: 30vh;
+    margin-left: 20vh;
+    width: 20vh;
+    height: 36vh;
+    margin-bottom: 20vh;
   }
   .card-order {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    height: 90vh;
-    margin-top: 10vh;
-    margin-bottom: 10vh;
+    height: 200vh;
+  }
+  .grey-hoodie {
+    width: 14vh;
+    margin-left: 3vh;
   }
 }
 @media (min-width: 800px) {
   .card-order {
-    height: 40vh;
+    height: 120vh;
   }
 }
 @media (min-width: 1200px) {
@@ -118,24 +115,29 @@ footer {
   .card {
     width: 30vh;
     height: 40vh;
+    margin-bottom: 10vh;
+    margin-top: 5vh;
   }
   .card-order {
     display: flex;
     justify-content: space-around;
     height: 130vh;
-    margin-top: 15vh;
+  }
+  .grey-hoodie {
+    width: 21vh;
+    margin-left: 3vh;
   }
 }
 @media (min-width: 300px) {
   .yeezy-red-size {
-    height: 35vh;
+    height: 45vh;
   }
   .img-adidas-rb {
-    width: 10vh;
+    width: 16vh;
     margin-left: 2vh;
   }
   .red-yeezy-img {
-    height: 10vh;
+    height: 20vh;
   }
 }
 @media (min-width: 500px) {
@@ -144,7 +146,7 @@ footer {
   }
   .img-adidas-rb {
     width: 10vh;
-    height: 20vh;
+    height: 30vh;
   }
   .black-jacket-card {
     height: 40vh;
@@ -161,14 +163,49 @@ footer {
   }
   .img-adidas-rb {
     width: 25vh;
-    height: 60vh;
+    height: 30vh;
   }
   .black-jacket-card {
-    height: 58vh;
+    height: 52vh;
+  }
+}
+@media (min-width: 300px) {
+  .position-map {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 7.45vh;
+  }
+}
+@media (min-width: 600px) {
+  .position-map {
+    display: flex;
+    justify-content: center;
+    margin-top: 10vh;
+    margin-bottom: 6.5vh;
+  }
+  .formulario {
+    margin-left: 24vh;
+  }
+  .email {
+    margin-right: 3vh;
+  }
+}
+@media (min-width: 800px) {
+  .formulario {
+    margin-left: 35vh;
+  }
+  .mapa {
+    height: 60vh;
+    width: 80vh;
+  }
+}
+@media (min-width: 1200px) {
+  .formulario {
+    margin-left: 45vh;
   }
 }
 body {
-  background-color: #b8b8b8;
+  background-color: #4b4b4b;
 }
 
 /*# sourceMappingURL=estilos.css.map */
