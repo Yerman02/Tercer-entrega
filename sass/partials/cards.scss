@@ -1,6 +1,6 @@
 @media  (min-width:300px){
 .card{
-    margin-left: 20vh;
+
     width: 20vh;
     height: 36vh;
     margin-bottom: 20vh;
@@ -9,8 +9,8 @@
 .card-order{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
-    height: 200vh;
+    justify-content: space-evenly;
+    height: 180vh;
 }
 .grey-hoodie{
     width: 14vh;
@@ -22,7 +22,6 @@
 .card-order{
     height: 120vh;
 }
-
 }
 
 @media  (min-width:1200px) {
@@ -36,6 +35,7 @@
     height: 40vh;
     margin-bottom: 10vh;
     margin-top: 5vh ;
+
 }
 .card-order{
     display: flex;
@@ -46,6 +46,10 @@
     width: 21vh;
     margin-left: 3vh;
 }
-
 }
 
+@media (min-width:1600px){
+    .card-order{
+        height: 60vh;
+    }
+}

@@ -85,7 +85,6 @@ footer {
 
 @media (min-width: 300px) {
   .card {
-    margin-left: 20vh;
     width: 20vh;
     height: 36vh;
     margin-bottom: 20vh;
@@ -93,8 +92,8 @@ footer {
   .card-order {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
-    height: 200vh;
+    justify-content: space-evenly;
+    height: 180vh;
   }
   .grey-hoodie {
     width: 14vh;
@@ -128,9 +127,14 @@ footer {
     margin-left: 3vh;
   }
 }
+@media (min-width: 1600px) {
+  .card-order {
+    height: 60vh;
+  }
+}
 @media (min-width: 300px) {
   .yeezy-red-size {
-    height: 45vh;
+    height: 36vh;
   }
   .img-adidas-rb {
     width: 16vh;
@@ -149,24 +153,24 @@ footer {
     height: 30vh;
   }
   .black-jacket-card {
-    height: 40vh;
+    height: 39vh;
   }
 }
 @media (min-width: 800px) {
   .yeezy-red-size {
-    height: 35vh;
+    height: 36vh;
   }
 }
 @media (min-width: 1200px) {
   .yeezy-red-size {
-    height: 43vh;
+    height: 40.6vh;
   }
   .img-adidas-rb {
     width: 25vh;
     height: 30vh;
   }
   .black-jacket-card {
-    height: 52vh;
+    height: 49.2vh;
   }
 }
 @media (min-width: 300px) {
